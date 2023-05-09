@@ -1,9 +1,7 @@
 from rest_framework import generics, viewsets, mixins, serializers, status
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
-
 from shop_main.models import ShopModels, StreetModels, CityModels
-
 from shop_main.serializers import ShopSerializers, CitySerializers, StreetSerializers, ShopCreateSerializers
 
 

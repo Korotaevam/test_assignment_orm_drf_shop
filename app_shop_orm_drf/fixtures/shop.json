@@ -1,0 +1,62 @@
+[
+  {
+    "model": "shop_main.shopmodels",
+    "pk": 1,
+    "fields": {
+      "name": "Магазин1",
+      "city": 1,
+      "street": 1,
+      "house": "58",
+      "time_open": "09:00:00",
+      "time_close": "18:00:00"
+    }
+  },
+  {
+    "model": "shop_main.shopmodels",
+    "pk": 2,
+    "fields": {
+      "name": "Магазин2",
+      "city": 1,
+      "street": 2,
+      "house": "59",
+      "time_open": "09:00:00",
+      "time_close": "18:00:00"
+    }
+  },
+  {
+    "model": "shop_main.shopmodels",
+    "pk": 3,
+    "fields": {
+      "name": "Магазин3",
+      "city": 2,
+      "street": 3,
+      "house": "45",
+      "time_open": "09:00:00",
+      "time_close": "18:00:00"
+    }
+  },
+  {
+    "model": "shop_main.shopmodels",
+    "pk": 4,
+    "fields": {
+      "name": "Магазин4",
+      "city": 3,
+      "street": 4,
+      "house": "59",
+      "time_open": "09:00:00",
+      "time_close": "18:00:00"
+    }
+  },
+  {
+    "model": "shop_main.shopmodels",
+    "pk": 5,
+    "fields": {
+      "name": "Магазин5",
+      "city": 3,
+      "street": 4,
+      "house": "581",
+      "time_open": "09:00:00",
+      "time_close": "18:00:00"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  db_assignment:
+    image: postgres:14.0
+    container_name: postgres_ass
+    env_file: ./app_shop_orm_drf/.env
+    volumes:
+      - postgres_ass:/var/lib/postgresql/data/
+  web_assignment:
+    build: ./app_shop_orm_drf
+    container_name: python_ass
+    command: python manage.py runserver 0.0.0.0:8000
+    env_file: ./app_shop_orm_drf/.env
+    volumes:
+      - .:/app/static/
+    ports:
+      - '8000:8000'
+    depends_on:
+      - db_assignment
+
+volumes:
+  postgres_ass:
+

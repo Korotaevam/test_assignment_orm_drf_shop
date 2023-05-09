@@ -1,0 +1,42 @@
+[
+  {
+    "model": "shop_main.streetmodels",
+    "pk": 1,
+    "fields": {
+      "name": "Садовая",
+      "city": 1
+    }
+  },
+  {
+    "model": "shop_main.streetmodels",
+    "pk": 2,
+    "fields": {
+      "name": "Еременко",
+      "city": 1
+    }
+  },
+  {
+    "model": "shop_main.streetmodels",
+    "pk": 3,
+    "fields": {
+      "name": "Якиманка",
+      "city": 2
+    }
+  },
+  {
+    "model": "shop_main.streetmodels",
+    "pk": 4,
+    "fields": {
+      "name": "Ленина",
+      "city": 3
+    }
+  },
+  {
+    "model": "shop_main.streetmodels",
+    "pk": 5,
+    "fields": {
+      "name": "Красная",
+      "city": 4
+    }
+  }
+]
