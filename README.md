@@ -1,24 +1,6 @@
-# test_assignment_orm_drf_shop
+
 Сервис который принимает и отвечает HTTP запросы
-
-Запуск
-Docker Engine 19.03.0+
-
-Docker Compose 1.27.0+
-
-git clone https://github.com/Korotaevam/test_assignment_orm_drf_shop.git
-
-cd test_assignment_orm_drf_shop
-
-docker-compose up
-
-Тестовое задание компании FIRECODE
 ======
-
-Данный репозиторий создан для выполнения тестового задания компании FIRECODE на вакансию Python Developer.
-
-* **ФИО**: Суханов Евгений
-* [Оригинал ТЗ](./assets/test_assignment.pdf)
 
 ## Запуск проекта
 
@@ -26,19 +8,19 @@ docker-compose up
 * Docker Compose 1.27.0+
 
 ```Bash
-git clone https://github.com/suhanoves/test_assignment_FIRECODE.git
-cd test_assignment_FIRECODE/
-docker-compose up -d
+git clone https://github.com/Korotaevam/test_assignment_orm_drf_shop.git
+cd test_assignment_orm_drf_shop
+docker-compose up 
 ```
 
 ## Информация о доступах
 
 * Доступ к API:
-  * http://127.0.0.1:8088/api/v1/
+  * http://127.0.0.1:8000/api/v1/
 * Доступ в админку:
-  * http://127.0.0.1:8088/admin
-  * username: `root`
-  * password: `111`
+  * http://127.0.0.1:8000/admin
+  * username: `admin`
+  * password: `admin`
 
 ## Описание API
 
